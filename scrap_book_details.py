@@ -8,10 +8,10 @@ def book_details(url:str)->list:
     """_This is a function who retrieve information of a book page
 
     Args:
-        url (_str_): url of the page of a book
+        url (str): url of the page of a book
 
     Returns:
-        detail (_array_): array that contains information about a book
+        detail (array): array that contains information about a book
     """
     # Stock the request response
     response = requests.get(url)
