@@ -47,7 +47,12 @@ def book_details(url:str)->list:
 
         # the description of the book
         article = soup.find('article', class_='product_page')
-        description =  article.find('p', class_="").text
+        if article.find('p', class_="") is None:
+            description = "no description"
+        else :
+            # Used of "get_text" function because some description have simple quotes in double quotes
+            # So We can't use ".text"
+            description =  article.find('p', class_="").get_text()
 
         # the category of the book
         ul = soup.find('ul', class_='breadcrumb')
@@ -67,6 +72,7 @@ def book_details(url:str)->list:
 
         details.append(url)
         details.append(information[0])
+        print(title)
         details.append(title)
         details.append(information[3])
         details.append(number[0])

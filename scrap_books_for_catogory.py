@@ -83,7 +83,6 @@ def category_details(url:str)->list:
             new_url = url
         
         books_details = books_url(new_url)
-        print(len(books_details))
         for i in books_details:
             book_details_category.append(book_details(i))
             
