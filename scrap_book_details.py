@@ -72,7 +72,7 @@ def book_details(url:str)->list:
 
         details.append(url)
         details.append(information[0])
-        print(title)
+        # print(title)
         details.append(title)
         details.append(information[3])
         details.append(number[0])

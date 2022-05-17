@@ -78,7 +78,7 @@ def category_details(url:str)->list:
 
         new_url = f"{url}page-{n}.html"
 
-        # if there is only one page fro a category, there is no "page-1" so we keep "index.html"
+        # if there is only one page from a category, there is no "page-1" so we keep "index.html"
         if n == 1 :
             new_url = url
         
