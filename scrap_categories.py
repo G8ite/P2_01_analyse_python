@@ -23,10 +23,10 @@ def all_categories_details(url):
         # Supprimer la première catégorie qui contient tous les livres
         li_array.pop(0)
         final_array = []
+        category_name =[]
         for category_link in li_array:
             a_link = category_link.find("a")
-            final_array.append([a_link.text.strip()])
+            category_name.append([a_link.text.strip()])
             final_array.append(category_details(f"{href}{a_link.attrs.get('href')}"))
 
-        return final_array
-            
+        return (final_array, category_name)

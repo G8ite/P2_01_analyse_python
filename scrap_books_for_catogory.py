@@ -74,7 +74,7 @@ def category_details(url:str)->list:
 
     url = url.replace("index.html","")
 
-    for n in range(1,pages_number+1):
+    for n in range(1,2):
 
         new_url = f"{url}page-{n}.html"
 

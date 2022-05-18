@@ -1,9 +1,6 @@
 __pycache__/
 .idea/
 .venv/
-_Openclassrooms_Semaine 2_P2_01_analyse_python_book_details.py1.stats
-_Openclassrooms_Semaine 2_P2_01_analyse_python_category_details.py1.stats
-_Openclassrooms_Semaine 2_P2_01_analyse_python_main.py1.stats
-_Openclassrooms_Semaine 2_P2_01_analyse_python_scrap_book_details.py1.stats
-_Openclassrooms_Semaine 2_P2_01_analyse_python_scrap_books_for_catogory.py1.stats
+_Openclassrooms_Semaine_2_P2_01_analyse_python_scrap_book_details.py1.stats
 data.csv
+notes.txt
