@@ -14,9 +14,10 @@ info = all_categories_details('https://books.toscrape.com/index.html')
 # Pour chacune de ces catégories, recup leur nom et appeler category_details
 # Mettre tout en forme dans un csv 
 # with csv lib
-with open('data.csv', 'w') as file:
-    writer = csv.writer(file, delimiter=';')
+with open('data.csv', 'w', encoding="utf-8") as file:
+    writer = csv.writer(file, delimiter=',')
     # write data
+    writer.writerow(data)
     for line in info:
-        writer.writerow(data)
-        writer.writerow(line)
+        for book in line:
+            writer.writerow(book)

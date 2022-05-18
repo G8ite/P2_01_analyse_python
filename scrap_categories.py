@@ -25,7 +25,7 @@ def all_categories_details(url):
         final_array = []
         for category_link in li_array:
             a_link = category_link.find("a")
-            final_array.append(a_link.text.strip())
+            final_array.append([a_link.text.strip()])
             final_array.append(category_details(f"{href}{a_link.attrs.get('href')}"))
 
         return final_array
