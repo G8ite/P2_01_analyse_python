@@ -11,21 +11,15 @@ data = ['product_page_url', 'universal_ product_code (upc)', 'title',
 
 info, names = all_categories_details('https://books.toscrape.com/index.html')
 
-# Pour chacune de ces catégories, recup leur nom et appeler category_details
-# Mettre tout en forme dans un csv 
 # with csv lib
 
-for category in info :
-    for name in names :
-        with open(f"{name}'.csv'", "w", encoding="utf-8") as file:
-            writer = csv.writer(file, delimiter=";")
+
+for name in names :
+    with open(f"{name}'.csv'", "w", encoding="utf-8") as file:
+        writer = csv.writer(file, delimiter=";")
+        for category in info :
+            print(len(category))
             for book in category:
+                print(len(book))
                 writer.writerow(book)
 
-# with open('data.csv', 'w', encoding="utf-8") as file:
-#     writer = csv.writer(file, delimiter=',')
-#     # write data
-#     writer.writerow(data)
-#     for line in info:
-#         for book in line:
-#             writer.writerow(book)

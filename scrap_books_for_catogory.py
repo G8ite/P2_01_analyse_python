@@ -70,11 +70,12 @@ def category_details(url:str)->list:
         list: all books for a category
     """
     pages_number = category_pages(url)
+    print(pages_number)
     book_details_category = []
 
     url = url.replace("index.html","")
 
-    for n in range(1,2):
+    for n in range(1,pages_number+1):
 
         new_url = f"{url}page-{n}.html"
 
@@ -83,7 +84,9 @@ def category_details(url:str)->list:
             new_url = url
         
         books_details = books_url(new_url)
+        # print(books_details)
         for i in books_details:
             book_details_category.append(book_details(i))
-            
+    # print(book_details_category)     
     return book_details_category
+    
