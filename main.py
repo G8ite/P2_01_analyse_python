@@ -18,7 +18,6 @@ for name in names :
     with open(f"{name}'.csv'", "w", encoding="utf-8") as file:
         writer = csv.writer(file, delimiter=";")
         for category in info :
-            print(len(category))
             for book in category:
                 print(len(book))
                 writer.writerow(book)
