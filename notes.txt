@@ -1,4 +1,0 @@
-booksdetails -> Renvoie un tableau avec les détails d un livre
-categorie details -> Renvoie un tableau de tableaux (fois le nombre de pages) qui contiennent les tableaux de booksdetails // faux à revoir
-all categories details -> renvoie un tableau avec le nom des categories suivi des categorie details correspondants
-["nom categorie",[[page 1[detaillivre]],[page 2[detail livre]]]]
