@@ -20,13 +20,10 @@ def all_categories_details(url):
         ul_nav = soup.find('ul', 'nav nav-list')
         li_ul = ul_nav.find('li')
         li_array = li_ul.find_all('li')
-        # Supprimer la première catégorie qui contient tous les livres
-        li_array.pop(0)
         references_array = []
         category_names=[]
         for category_link in li_array:
             a_link = category_link.find("a")
             category_names.append(a_link.text.strip())
             references_array.append(category_details(f"{href}{a_link.attrs.get('href')}"))
-
         return (references_array, category_names)

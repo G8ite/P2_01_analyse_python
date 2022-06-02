@@ -10,15 +10,13 @@ data = ['product_page_url', 'universal_ product_code (upc)', 'title',
 'category', 'review_rating', 'image_url']
 
 info, names = all_categories_details('https://books.toscrape.com/index.html')
+print(f"taille des infos : {len(info)}")
 
 # with csv lib
-
-
-for name in names :
-    with open(f"{name}'.csv'", "w", encoding="utf-8") as file:
+for category in info :
+    print(len(category))
+    with open(f"{names[info.index(category)]}.csv", "w", encoding="utf-8") as file:
         writer = csv.writer(file, delimiter=";")
-        for category in info :
-            for book in category:
-                print(len(book))
-                writer.writerow(book)
+        for book in category:
+            writer.writerow(book)
 
