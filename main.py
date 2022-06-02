@@ -14,9 +14,9 @@ print(f"taille des infos : {len(info)}")
 
 # with csv lib
 for category in info :
-    print(len(category))
     with open(f"{names[info.index(category)]}.csv", "w", encoding="utf-8") as file:
         writer = csv.writer(file, delimiter=";")
+        writer.writerow(data)
         for book in category:
             writer.writerow(book)
 
