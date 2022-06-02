@@ -2,54 +2,54 @@ __pycache__
 .idea
 .venv
 notes.txt
-Academic'.csv'
-Add a comment'.csv'
-Adult Fiction'.csv'
-Art'.csv'
-Autobiography'.csv'
-Biography'.csv'
-Business'.csv'
-Childrens'.csv'
-Christian Fiction'.csv'
-Christian'.csv'
-Classics'.csv'
-Contemporary'.csv'
-Crime'.csv'
-Cultural'.csv'
-Default'.csv'
-Erotica'.csv'
-Fantasy'.csv'
-Fiction'.csv'
-Food and Drink'.csv'
-Health'.csv'
-Historical Fiction'.csv'
-Historical'.csv'
-History'.csv'
-Horror'.csv'
-Humor'.csv'
+Academic.csv
+Add a comment.csv
+Adult Fiction.csv
+Art.csv
+Autobiography.csv
+Biography.csv
+Business.csv
+Childrens.csv
+Christian Fiction.csv
+Christian.csv
+Classics.csv
+Contemporary.csv
+Crime.csv
+Cultural.csv
+Default.csv
+Erotica.csv
+Fantasy.csv
+Fiction.csv
+Food and Drink.csv
+Health.csv
+Historical Fiction.csv
+Historical.csv
+History.csv
+Horror.csv
+Humor.csv
 main.py
-Music'.csv'
-Mystery'.csv'
-New Adult'.csv'
-Nonfiction'.csv'
-Novels'.csv'
-Paranormal'.csv'
-Parenting'.csv'
-Philosophy'.csv'
-Poetry'.csv'
-Politics'.csv'
-Psychology'.csv'
-Religion'.csv'
+Music.csv
+Mystery.csv
+New Adult.csv
+Nonfiction.csv
+Novels.csv
+Paranormal.csv
+Parenting.csv
+Philosophy.csv
+Poetry.csv
+Politics.csv
+Psychology.csv
+Religion.csv
 requirements.txt
-Romance'.csv'
-Science Fiction'.csv'
-Science'.csv'
-Self Help'.csv'
-Sequential Art'.csv'
-Short Stories'.csv'
-Spirituality'.csv'
-Sports and Games'.csv'
-Suspense'.csv'
-Thriller'.csv'
-Womens Fiction'.csv'
-Young Adult'.csv'
+Romance.csv
+Science Fiction.csv
+Science.csv
+Self Help.csv
+Sequential Art.csv
+Short Stories.csv
+Spirituality.csv
+Sports and Games.csv
+Suspense.csv
+Thriller.csv
+Womens Fiction.csv
+Young Adult.csv
