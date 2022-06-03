@@ -1,5 +1,4 @@
-# P2_01_analyse_python
-
+# Utiliser les bases de python pour l'analyse de marché - Openclassrooms
 * Installer python sur votre machine
 * Mettre à jour pip 
 
