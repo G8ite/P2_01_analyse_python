@@ -1,6 +1,6 @@
 # P2_01_analyse_python
 
-* Cloner le repository
+* Cloner le repository //Explain
 * Installer python sur votre machine
 * Mettre à jour pip
   ** python -m pip install --upgrade pip **
