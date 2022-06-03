@@ -7,10 +7,10 @@ from scrap_books_for_catogory import category_details
 
 
 def all_categories_details(url):
-    """_summary_
+    """Function that return all books for all categories
 
     Args:
-        url (_type_): _description_
+        url (str)
     """
     href = "http://books.toscrape.com/"
     response = requests.get(url)
