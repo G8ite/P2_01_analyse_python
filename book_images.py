@@ -25,6 +25,7 @@ def save_images(url: str):
         for image in images:
             name = image['alt']
             href =(url + image['src'])
+            print(f"{name}'s image downloaded")
             name = re.sub(r"['\"[\]{}()?\-\+*&é;:./!,$=#]*","",name)
             with open((f"data\images\{name}.jpg"), 'wb') as f:
                 f.write(requests.get(href).content)
