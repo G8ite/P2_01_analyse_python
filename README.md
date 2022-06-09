@@ -1,4 +1,12 @@
 # Utiliser les bases de python pour l'analyse de marché - Openclassrooms
+# Objectif du projet
+* Ce projet permet de télécharger toutes les images du site Books to Scrape 
+
+`http://books.toscrape.com/`
+
+* Il permet aussi de télécharger dans des fichiers csv tous les détails des livres de chaque catégories 
+
+# Installation
 * Installer python sur votre machine
 * Mettre à jour pip 
 
