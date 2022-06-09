@@ -1,6 +1,7 @@
 __pycache__
-.idea
-.venv
+idea
+venv
+data/
 notes.txt
 Academic.csv
 Add a comment.csv
@@ -51,5 +52,6 @@ Spirituality.csv
 Sports and Games.csv
 Suspense.csv
 Thriller.csv
+Travel.csv
 Womens Fiction.csv
 Young Adult.csv

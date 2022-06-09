@@ -2,6 +2,7 @@
 import csv
 
 from scrap_categories import all_categories_details
+from book_images import save_images
 
 
 # init data and header of csv file
@@ -18,4 +19,6 @@ for category in info :
         writer.writerow(data)
         for book in category:
             writer.writerow(book)
+
+save_images("http://books.toscrape.com/")
 
